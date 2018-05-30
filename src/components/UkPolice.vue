@@ -93,10 +93,6 @@
           url: "",
           title: ""
         }],
-        detailsEM3: [{
-          url: "",
-          title: ""
-        }],
         names: [],
         actionColDef: {
           label: 'Detail',
@@ -177,8 +173,6 @@
               this.detailsEM0 = response.data.engagement_methods[0];
               this.detailsEM1 = response.data.engagement_methods[1];
               this.detailsEM2 = response.data.engagement_methods[2];
-              this.detailsEM3 = response.data.engagement_methods[3];
-
 
               let finalDetDes1 = detDes.replace(/<p>/g,"");
               let finalDetDes = finalDetDes1.replace(/p>/g,"");
