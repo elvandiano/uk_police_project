@@ -5,7 +5,7 @@
                    element-loading-spinner="el-icon-loading"
                    element-loading-background="rgba(0.2, 0.1, 0, 0.8)" :data="names" :action-col-def="actionColDef"
                    style="margin: 70px 50px 0 50px">
-        <el-table-column prop="id" label="Id" align="left">
+        <el-table-column prop="id"   label="Id" align="left">
         </el-table-column>
         <el-table-column prop="name" label="Name" align="left">
         </el-table-column>
