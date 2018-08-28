@@ -6,6 +6,7 @@ import router from './router'
 import ElementUI from 'element-ui';
 import locale from 'element-ui/lib/locale/lang/en'
 import DataTables from 'vue-data-tables'
+import store from './store'
 
 import 'element-ui/lib/theme-chalk/index.css';
 
@@ -15,10 +16,12 @@ Vue.use(DataTables);
 Vue.use(ElementUI, { locale });
 Vue.use(ElementUI);
 
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
